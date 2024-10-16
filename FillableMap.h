@@ -12,7 +12,7 @@ private:
 public:
     FillableMap(int mapIndex);
     void displayGrid() const;
-    void floodFill(int row, int col, char newChar);
+    void floodFill(int row, int col, char newChar); // newCharacter will be the character of a painted pixel.
 };
 
 #endif
